@@ -1,0 +1,20 @@
+{
+  "name": "p3_lescribaa_florian_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "sass": "sass --watch ./scss/menu/menu.scss:./scss/menu/menu.css ./scss/heart/heart_menu/heart_menu.scss:./scss/heart/heart_menu/heart_menu.css ./scss/heart/heart_restaurants/heart_restaurants.scss:./scss/heart/heart_restaurants/heart_restaurants.css ./scss/header/header_menu.scss:./scss/header/header_menu.css  ./scss/footer/footer.scss:./scss/footer/footer.css ./scss/check/check.scss:./scss/check/check.css ./scss/carte/carte_menu.scss:./scss/carte/carte_menu.css ./scss/btn.commander/btn_commander.scss:./scss/btn.commander/btn_commander.css ./scss/animations/apparition.scss:./scss/animations/apparition.css ./scss/animations/loader.scss:./scss/animations/loader.css ./scss/accueil/accueil.scss:./scss/accueil/accueil.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FloFlo-L/FlorianLescribaa_3_25022022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FloFlo-L/FlorianLescribaa_3_25022022/issues"
+  },
+  "homepage": "https://github.com/FloFlo-L/FlorianLescribaa_3_25022022#readme"
+}

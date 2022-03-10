@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAMA,AACI,WADO,CACP,UAAU,CAAA;EACN,KAAK,EAAE,WAAW;CACrB;;AAHL,AAKI,WALO,CAKP,CAAC,CAAA;EACG,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CAOf;;AAfL,AAUQ,WAVG,CAKP,CAAC,AAKI,MAAM,CAAA;EACP,eAAe,EAAE,IAAI;EACrB,uBAAuB,EAAE,IAAI;EAC7B,gBAAgB,EAAE,2CAA2D;CAC5E",
-    "sources": [
-        "heart_restaurants.scss"
-    ],
-    "names": [],
-    "file": "heart_restaurants.css"
-}
+{"version":3,"sourceRoot":"","sources":["heart_restaurants.scss"],"names":[],"mappings":"AAOI;EACI;;AAGJ;EACI;EACA;EACA;;AAEA;EACA;EACA;EACA","file":"heart_restaurants.css"}

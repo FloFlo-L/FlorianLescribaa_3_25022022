@@ -5,25 +5,19 @@ a {
 header {
   width: 100%;
 }
-
 header .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 header .logo img {
   max-width: 250px;
   margin: 10px;
 }
-
 header .logo .fa-arrow-left {
   position: relative;
   top: 20px;
   right: 40px;
   font-size: 25px;
 }
+
 /*# sourceMappingURL=header_menu.css.map */

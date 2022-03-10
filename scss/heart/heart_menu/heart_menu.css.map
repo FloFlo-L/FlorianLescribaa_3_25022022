@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAIA,AACI,WADO,CACP,UAAU,CAAA;EACN,KAAK,EAAE,WAAW;CACrB;;AAHL,AAKG,WALQ,CAKR,CAAC,CAAA;EACI,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;CAQd;;AAhBL,AAUQ,WAVG,CAKR,CAAC,AAKK,MAAM,CAAA;EACH,eAAe,EAAE,IAAI;EACrB,uBAAuB,EAAE,IAAI;EAC7B,gBAAgB,EAAE,2CAA2D;CAChF",
-    "sources": [
-        "heart_menu.scss"
-    ],
-    "names": [],
-    "file": "heart_menu.css"
-}
+{"version":3,"sourceRoot":"","sources":["heart_menu.scss"],"names":[],"mappings":"AAKI;EACI;;AAGL;EACK;EACA;EACA;;AAEA;EACI;EACA;EACA","file":"heart_menu.css"}

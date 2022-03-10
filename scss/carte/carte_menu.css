@@ -1,42 +1,35 @@
 h1 {
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
 }
 
 .restaurant {
   background-color: #ececec;
 }
-
 .restaurant img {
   height: 300px;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .restaurant_name {
   background-color: #ececec;
   border-radius: 40px 40px 0px 0px;
   padding-top: 2px;
   padding-left: 20px;
-  -webkit-transform: translateY(-40px);
-          transform: translateY(-40px);
+  transform: translateY(-40px);
   margin-bottom: -40px;
 }
 
 .heart_menu .invisible {
   color: transparent;
 }
-
 .heart_menu i {
   position: absolute;
   right: 40px;
   bottom: 7px;
 }
-
 .heart_menu i:hover {
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: -webkit-gradient(linear, left top, right top, from(#9356DC), to(#FF79DA));
   background-image: linear-gradient(to right, #9356DC, #FF79DA);
 }
 
@@ -45,7 +38,6 @@ h1 {
   width: 100%;
   padding: 10px;
 }
-
 .menu h2 {
   margin: 0%;
   font-size: 18px;
@@ -63,53 +55,32 @@ h1 {
 }
 
 .menu_list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .article_card {
   background-color: white;
   border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 15px;
   cursor: pointer;
   overflow: hidden;
-  -webkit-box-shadow: 2px 2px 2px #a1a1a1;
-          box-shadow: 2px 2px 2px #a1a1a1;
+  box-shadow: 2px 2px 2px #a1a1a1;
 }
 
 .card_text {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex: 100%;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-left: 10px;
   white-space: nowrap;
   overflow: hidden;
 }
-
 .card_text h4 {
   width: 85%;
   margin: 0%;
@@ -118,32 +89,21 @@ h1 {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-
 .card_text_description {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   margin-bottom: 8px;
 }
-
 .card_text_description p {
   margin: 0%;
   margin-top: 7px;
 }
-
 .card_text_description_ingredients {
   width: 80%;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-
 .card_text_description_price {
   font-weight: bold;
 }
@@ -152,32 +112,24 @@ h1 {
   .restaurant {
     text-align: center;
   }
+
   .menu_fiche {
     width: 70%;
     margin: auto;
   }
 }
-
 @media only screen and (min-width: 992px) {
   .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     width: auto;
   }
   .menu_fiche {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin: 0%;
     width: 33%;
   }
 }
+
 /*# sourceMappingURL=carte_menu.css.map */
