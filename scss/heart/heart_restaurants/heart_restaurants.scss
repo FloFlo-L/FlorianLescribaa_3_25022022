@@ -1,0 +1,23 @@
+$color-primary: #9356DC;
+$color-secondary: #FF79DA;
+$color-tertiary: #99E2D0;
+
+
+
+.heart_card{
+    .invisible{
+        color: transparent;
+    }
+ 
+    i{
+        position: absolute;
+        right: 30px;
+        bottom: 15px; 
+            
+        &:hover{
+        background-clip: text;
+        -webkit-background-clip: text; //gérer limite arrière plan
+        background-image: linear-gradient(to right, $color-primary, $color-secondary);
+        }
+    }    
+ }

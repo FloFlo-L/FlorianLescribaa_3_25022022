@@ -1,0 +1,42 @@
+$color-primary: #9356DC;
+$color-secondary: #FF79DA;
+$color-tertiary: #99E2D0;
+.check{
+    color: white;
+    background-color: $color-tertiary;
+    text-align: center;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20px);
+
+    i{
+        font-size: 18px;
+    }
+}
+
+// hover
+.article_card:hover .check{
+    flex: 15%;
+    transform: translateX(0px);
+    transition-duration: 800ms;
+    margin-left: 15px;
+}
+
+.article_card:hover .card_text{
+    flex: 85%;
+    transition-duration: 800ms;
+    
+}
+
+
+.fa-check-circle {
+    transform: rotate(-360deg);
+    transition-duration: 800ms;
+    transition-delay: 0s;
+}
+
+.article_card:hover .fa-check-circle {
+    transform: rotate(0deg);
+}

@@ -1,0 +1,23 @@
+a{
+    color: black;
+}
+
+header{
+    width: 100%;
+
+    .logo{
+        display: flex;
+        justify-content: center;
+
+        img{
+            max-width: 250px;
+            margin: 10px;
+        }
+        .fa-arrow-left {
+            position: relative;
+            top: 20px;
+            right:40px;
+            font-size: 25px;
+          }
+    }
+}

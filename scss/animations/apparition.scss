@@ -1,0 +1,35 @@
+ .entrees{
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 500ms;
+    animation-fill-mode: backwards;
+  }
+
+  .plats{
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 800ms;
+    animation-fill-mode: backwards;
+  }
+
+  .desserts{
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-delay: 1100ms;
+    animation-fill-mode: backwards;
+  }
+
+  @keyframes appear {
+    from {
+      transform: translateY(80px);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+
