@@ -377,6 +377,14 @@ header .logo img {
     text-align: center;
   }
 
+  .resto_title {
+    text-align: center;
+  }
+  .resto_list {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 992px) {
   .fonction {
     margin-bottom: 150px;
   }
@@ -394,14 +402,6 @@ header .logo img {
     right: -200px;
   }
 
-  .resto_title {
-    text-align: center;
-  }
-  .resto_list {
-    width: 70%;
-  }
-}
-@media only screen and (min-width: 992px) {
   .resto_list {
     max-width: 75%;
     display: flex;

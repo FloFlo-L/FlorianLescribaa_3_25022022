@@ -238,7 +238,20 @@ header{
     .fonction_title{
         text-align: center;
     }
+    
+    .resto{
+        &_title{
+            text-align: center;
+        }
 
+        &_list{
+            width: 70%;
+        }
+    }
+}
+
+// tablette
+@media only screen and (min-width: 992px){
     .fonction{
         margin-bottom: 150px;
         
@@ -258,21 +271,6 @@ header{
             
         }
     }
-    
-    .resto{
-        &_title{
-            text-align: center;
-        }
-
-        &_list{
-            width: 70%;
-        }
-    }
-}
-
-// tablette
-@media only screen and (min-width: 992px){
-    
     
     .resto{
 
