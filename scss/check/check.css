@@ -3,35 +3,53 @@
   background-color: #99E2D0;
   text-align: center;
   border-radius: 0px 15px 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translateX(20px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
 }
+
 .check i {
   font-size: 18px;
 }
 
 .article_card:hover .check {
-  flex: 15%;
-  transform: translateX(0px);
-  transition-duration: 800ms;
+  -webkit-box-flex: 15%;
+      -ms-flex: 15%;
+          flex: 15%;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  -webkit-transition-duration: 800ms;
+          transition-duration: 800ms;
   margin-left: 15px;
 }
 
 .article_card:hover .card_text {
-  flex: 85%;
-  transition-duration: 800ms;
+  -webkit-box-flex: 85%;
+      -ms-flex: 85%;
+          flex: 85%;
+  -webkit-transition-duration: 800ms;
+          transition-duration: 800ms;
 }
 
 .fa-check-circle {
-  transform: rotate(-360deg);
-  transition-duration: 800ms;
-  transition-delay: 0s;
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+  -webkit-transition-duration: 800ms;
+          transition-duration: 800ms;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
 }
 
 .article_card:hover .fa-check-circle {
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
-
 /*# sourceMappingURL=check.css.map */
